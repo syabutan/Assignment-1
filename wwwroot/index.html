@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment #1</title>
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20190320/ourmid/pngtree-vector-web-icon-png-image_848618.jpg">
+    <link href="css/StyleSheet1.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="container">
+        <h2>Shun</h2>
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <img src="image/fun.jpg" height="500" />
+    </div>
+
+    <br />
+    <br />
+
+    <div class="example">
+        <div class="box27">
+            <span class="box-title">What I hope to get out of this IS 413</span>
+            <p>
+                I hope to get solid skills and knowledge of <br />
+                Web developping. I wish I will develop my skills<br />
+                so that I can work at IT company as a engineer <br />
+                next summer.
+            </p>
+        </div>
+        <div class="box27">
+            <span class="box-title">Top 3 most interested jobs</span>
+            <p>
+                <ul>
+                    <li>Software Engineer</li>
+                    <li>Web Developer</li>
+                    <li>Marketer</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <div class="under-element">
+        <br />
+        <br />
+        <div class="box28" style="margin:0 auto; text-align: center">
+            <span class="box-title">Grade Calculator</span>
+            <p>
+                Enter your grade percentage (0 to 100)
+            </p>
+            <div class="example2">
+                <form>
+                    <label>Assignments 50%</label>
+                    <input type="text" id="assignment" size="4" />
+                    <br />
+                    <label>Group Project 10%</label>
+                    <input type="text" id="group" size="4" />
+                    <br />
+                    <label>Quizzes 10%</label>
+                    <input type="text" id="quizz" size="4" />
+                    <br />
+                    <label>Exams 20%</label>
+                    <input type="text" id="exam" size="4" />
+                    <br />
+                    <label>INTEX 10%</label>
+                    <input type="text" id="intex" size="4" />
+                    <br />
+                    <br />
+                    <input class="decorated-btn click-down" type="button" value="Calcurate!" id="submit"/>
+                    <br />
+                </form>
+                <form>
+                    <h3 id="final" hidden>Your final Grade is:</h3>
+                    <p style="font-size: x-large" id="letterGrade"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/Script1.js"></script>
+</body>
+</html>

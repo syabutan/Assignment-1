@@ -1,0 +1,161 @@
+﻿body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #21303b;
+    color: #fff;
+}
+
+label {
+    font-size: 20px;
+    width: 200px;
+    display: inline-block;
+}
+
+
+h2 {
+    font-size: 50px;
+    line-height: 100px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+/*container for my preferred name*/
+#container {
+    /*stitching*/
+    outline: 1px dashed #98abb9;
+    outline-offset: -5px;
+    background-color: #556068;
+    height: 100px;
+    width: 200px;
+    margin: 60px auto;
+    /*shadow*/
+    -webkit-box-shadow: 4px 4px 4px #000;
+    -moz-box-shadow: 4px 4px 4px #000;
+    box-shadow: 4px 4px 4px #000;
+}
+
+
+/*box for a paragraph and a list*/
+.box27 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #62c1ce;
+    height: 100px;
+}
+
+.box27 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #62c1ce;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+
+.box27 p {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+}
+
+/*box for the calcurator*/
+.box28 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.8em 1em;
+    border: solid 3px #62c1ce;
+    height: 260px;
+    width: 600px;
+}
+
+.box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #62c1ce;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+
+.box28  {
+    margin: 0;
+    padding: 0;
+
+}
+
+.example div {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    margin: 30px;
+}
+
+.example2 {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+/*submit button*/
+.decorated-btn {
+    background: #1AAB8A;
+    color: #fff;
+    border: none;
+    position: relative;
+    height: 30px;
+    font-size: 1.0em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+}
+
+.click-down:active {
+    transform: translateY(2px);
+    border-bottom: none;
+}
+
+.decorated-btn:hover {
+    background: #fff;
+    color: #1AAB8A;
+}
+
+.decorated-btn:before, .decorated-btn:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #1AAB8A;
+    transition: 400ms ease all;
+}
+
+.decorated-btn:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.decorated-btn:hover:before, .decorated-btn:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
